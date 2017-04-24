@@ -1,0 +1,22 @@
+{
+  "name": "png",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:okbel/png.git",
+  "author": "Belen Curcio <curciobelen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "minimal": "cd examples/minimal && node index"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "graphql": "^0.9.3",
+    "graphql-server-express": "^0.7.2",
+    "graphql-tools": "^0.11.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^4.0.0"
+  }
+}
