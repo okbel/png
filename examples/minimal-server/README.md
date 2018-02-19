@@ -1,4 +1,4 @@
-## A Simple Client using express and graphql
+## A Simple server using express and graphql
 
 This server creates a single POST endpoint that resolves the query and sends back the anwser
 
