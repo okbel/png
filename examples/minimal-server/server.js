@@ -18,8 +18,8 @@ const root = {
   hello: () => 'world!',
 };
 
-// POST endpoint
-app.post('/graph', async ({body: {query}}, res) =>
+// GET endpoint
+app.get('/graph', async ({body: {query}}, res) =>
   res.json(await graphql(schema, query, root))
 );
 
