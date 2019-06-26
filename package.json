@@ -6,7 +6,8 @@
   "author": "Belen Curcio <curciobelen@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "minimal": "cd examples/minimal && node index"
+    "minimal": "cd examples/minimal-server && node server.js",
+    "server": "cd examples/server && node index"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
